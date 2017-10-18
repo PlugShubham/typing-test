@@ -1,6 +1,57 @@
-.mainbody{
-    border: 1px solid black;
-    background-color: aqua;
-    height:700px;
+.navbar{
+    background-color: cadetblue;
+}
+
+#head a{
+    color:white;
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-family: monospace;
+}
+#head a:hover{
+    color:cadetblue;
+    background-color: white;
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-family: monospace;
+}
+#typingArea{
+    border:8px solid cadetblue;
+    width: 60%;
+    font-family: monospace;
+    margin-top: 2%
+}
+#hint-area{
+    font-family: monospace;
+    color:grey;
     margin-top: 2%;
+}
+#start{
+    background-color: white;
+    color:cadetblue;
+    font-family: monospace;
+    font-size: 20px;
+}
+#start:hover{
+    background-color: cadetblue;
+    color:white;
+    font-family: monospace;
+    font-size: 20px;
+}
+#stop{
+    background-color: white;
+    color:cadetblue;
+    font-family: monospace;
+    font-size: 20px;
+    display: none;
+}
+#stop:hover{
+    background-color: cadetblue;
+    color:white;
+    font-family: monospace;
+    font-size: 20px;
+}
+#result{
+    font-family: monospace;
+    color:grey;
 }
